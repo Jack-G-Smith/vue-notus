@@ -102,16 +102,16 @@
   </div>
 </template>
 <script>
-import github from "@/assets/img/github.svg";
-import google from "@/assets/img/google.svg";
+import github from '@/assets/img/github.svg'
+import google from '@/assets/img/google.svg'
 
 export default {
   name: 'BaseLogin',
-  data() {
+  data () {
     return {
       github,
-      google,
-    };
-  },
-};
+      google
+    }
+  }
+}
 </script>

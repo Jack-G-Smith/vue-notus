@@ -347,24 +347,24 @@
 ); }
 
 <script>
-import NotificationDropdown from "@/components/Dropdowns/NotificationDropdown.vue";
-import UserDropdown from "@/components/Dropdowns/UserDropdown.vue";
+import NotificationDropdown from '@/components/Dropdowns/NotificationDropdown.vue'
+import UserDropdown from '@/components/Dropdowns/UserDropdown.vue'
 
 export default {
   name: 'TheSidebar',
-  data() {
+  data () {
     return {
-      collapseShow: "hidden",
-    };
+      collapseShow: 'hidden'
+    }
   },
   methods: {
     toggleCollapseShow: function (classes) {
-      this.collapseShow = classes;
-    },
+      this.collapseShow = classes
+    }
   },
   components: {
     NotificationDropdown,
-    UserDropdown,
-  },
-};
+    UserDropdown
+  }
+}
 </script>

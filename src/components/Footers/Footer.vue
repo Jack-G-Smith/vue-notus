@@ -163,10 +163,10 @@
 <script>
 export default {
   name: 'TheFooter',
-  data() {
+  data () {
     return {
-      date: new Date().getFullYear(),
-    };
-  },
-};
+      date: new Date().getFullYear()
+    }
+  }
+}
 </script>

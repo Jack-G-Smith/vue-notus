@@ -148,21 +148,21 @@
   </div>
 </template>
 <script>
-import Navbar from "@/components/Navbars/AuthNavbar.vue";
-import FooterComponent from "@/components/Footers/Footer.vue";
+import Navbar from '@/components/Navbars/AuthNavbar.vue'
+import FooterComponent from '@/components/Footers/Footer.vue'
 
-import team2 from "@/assets/img/team-2-800x800.jpg";
+import team2 from '@/assets/img/team-2-800x800.jpg'
 
 export default {
   name: 'TheProfile',
-  data() {
+  data () {
     return {
-      team2,
-    };
+      team2
+    }
   },
   components: {
     Navbar,
-    FooterComponent,
-  },
-};
+    FooterComponent
+  }
+}
 </script>

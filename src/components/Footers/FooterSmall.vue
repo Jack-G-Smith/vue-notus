@@ -66,16 +66,16 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      date: new Date().getFullYear(),
-    };
+      date: new Date().getFullYear()
+    }
   },
   props: {
     absolute: {
       type: Boolean,
-      default: false,
-    },
-  },
-};
+      default: false
+    }
+  }
+}
 </script>

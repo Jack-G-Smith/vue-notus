@@ -97,20 +97,20 @@
   </nav>
 </template>
 <script>
-import PagesDropdown from "@/components/Dropdowns/PagesDropdown.vue";
+import PagesDropdown from '@/components/Dropdowns/PagesDropdown.vue'
 export default {
-  data() {
+  data () {
     return {
-      navbarOpen: false,
-    };
+      navbarOpen: false
+    }
   },
   methods: {
     setNavbarOpen: function () {
-      this.navbarOpen = !this.navbarOpen;
-    },
+      this.navbarOpen = !this.navbarOpen
+    }
   },
   components: {
-    PagesDropdown,
-  },
-};
+    PagesDropdown
+  }
+}
 </script>

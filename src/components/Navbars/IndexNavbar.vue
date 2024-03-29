@@ -94,21 +94,21 @@
 </template>
 
 <script>
-import IndexDropdown from "@/components/Dropdowns/IndexDropdown.vue";
+import IndexDropdown from '@/components/Dropdowns/IndexDropdown.vue'
 
 export default {
-  data() {
+  data () {
     return {
-      navbarOpen: false,
-    };
+      navbarOpen: false
+    }
   },
   methods: {
     setNavbarOpen: function () {
-      this.navbarOpen = !this.navbarOpen;
-    },
+      this.navbarOpen = !this.navbarOpen
+    }
   },
   components: {
-    IndexDropdown,
-  },
-};
+    IndexDropdown
+  }
+}
 </script>

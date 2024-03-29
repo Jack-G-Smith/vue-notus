@@ -8,12 +8,12 @@
   </div>
 </template>
 <script>
-import MapExample from "@/components/Maps/MapExample.vue";
+import MapExample from '@/components/Maps/MapExample.vue'
 
 export default {
   name: 'MapsExample',
   components: {
-    MapExample,
-  },
-};
+    MapExample
+  }
+}
 </script>

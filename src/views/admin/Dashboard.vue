@@ -18,12 +18,12 @@
     </div>
   </div>
 </template>
-<script>
-export default { name: "TheDashboard" };
-</script>
 <script setup>
-import CardLineChart from "@/components/Cards/CardLineChart.vue";
-import CardBarChart from "@/components/Cards/CardBarChart.vue";
-import CardPageVisits from "@/components/Cards/CardPageVisits.vue";
-import CardSocialTraffic from "@/components/Cards/CardSocialTraffic.vue";
+import CardLineChart from '@/components/Cards/CardLineChart.vue'
+import CardBarChart from '@/components/Cards/CardBarChart.vue'
+import CardPageVisits from '@/components/Cards/CardPageVisits.vue'
+import CardSocialTraffic from '@/components/Cards/CardSocialTraffic.vue'
+</script>
+<script>
+export default { name: 'TheDashboard' }
 </script>
