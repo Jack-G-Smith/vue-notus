@@ -7,13 +7,9 @@
     </div>
   </div>
 </template>
-<script>
+<script setup>
 import MapExample from '@/components/Maps/MapExample.vue'
-
-export default {
-  name: 'MapsExample',
-  components: {
-    MapExample
-  }
-}
+</script>
+<script>
+export default { name: 'MapsExample' }
 </script>

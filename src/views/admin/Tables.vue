@@ -8,13 +8,9 @@
     </div>
   </div>
 </template>
-<script>
+<script setup>
 import CardTable from '@/components/Cards/CardTable.vue'
-
-export default {
-  name: 'BaseTables',
-  components: {
-    CardTable
-  }
-}
+</script>
+<script>
+export default { name: 'BaseTables' }
 </script>
