@@ -12,6 +12,7 @@
 import CardTable from "@/components/Cards/CardTable.vue";
 
 export default {
+  name: 'BaseTables',
   components: {
     CardTable,
   },

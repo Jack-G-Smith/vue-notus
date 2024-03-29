@@ -154,6 +154,7 @@ import FooterComponent from "@/components/Footers/Footer.vue";
 import team2 from "@/assets/img/team-2-800x800.jpg";
 
 export default {
+  name: 'TheProfile',
   data() {
     return {
       team2,

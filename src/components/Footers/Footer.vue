@@ -162,6 +162,7 @@
 </template>
 <script>
 export default {
+  name: 'TheFooter',
   data() {
     return {
       date: new Date().getFullYear(),

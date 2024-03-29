@@ -605,6 +605,7 @@ import team3 from "@/assets/img/team-3-800x800.jpg";
 import team4 from "@/assets/img/team-4-470x470.png";
 
 export default {
+  name: 'TheLanding',
   data() {
     return {
       team1,

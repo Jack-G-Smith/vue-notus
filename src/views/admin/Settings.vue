@@ -13,6 +13,7 @@ import CardSettings from "@/components/Cards/CardSettings.vue";
 import CardProfile from "@/components/Cards/CardProfile.vue";
 
 export default {
+  name: 'BaseSettings',
   components: {
     CardSettings,
     CardProfile,

@@ -351,6 +351,7 @@ import NotificationDropdown from "@/components/Dropdowns/NotificationDropdown.vu
 import UserDropdown from "@/components/Dropdowns/UserDropdown.vue";
 
 export default {
+  name: 'TheSidebar',
   data() {
     return {
       collapseShow: "hidden",
